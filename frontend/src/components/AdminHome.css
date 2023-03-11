@@ -1,0 +1,13 @@
+
+  .info {
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+  }
+  
+  .button-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  

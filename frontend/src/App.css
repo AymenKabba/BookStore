@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo img {
+  height: 30px ;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-menu li {
+  margin: 0 10px;
+}
+
+.navbar-menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+.navbar-auth a {
+  background-color: #1E90FF;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.navbar-auth a:hover {
+  background-color: #0078D7;
+}
+
+.about{
+    padding: 3rem 0;
+}
+.about-content{
+    gap: 4rem;
+}
+.about-title{
+    margin: 1rem 0;
+}
+.about-img img{
+    max-width: 520px;
+}
+.about-text p{
+    margin: 1.8rem 0;
+    opacity: 0.8;
+}
+
+@media screen and (min-width: 800px){
+    .about-content{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .about-title{
+        margin-top: 0;
+    }
+    .about-img img{
+        margin-left: 0;
+    }
+}
+.image-container {
+  overflow: auto; /* Clear any previous floats */
+}
+
+img {
+  float: left;
+  margin-right: 10px; /* Add some space between the image and text */
+}
+
+p {
+  margin: 0; /* Remove any default margins */
+}
+.AddLocalForm {
+  background-image: url('./images/library-img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+button {
+  margin-right: 10px; /* Add margin to the right of each button */
+  
+}
